@@ -17,10 +17,24 @@
         max-width: 100%;
     }
 }
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    .why-us {
+        background-color: #222222;
+        padding-top: 3rem;
+        margin-bottom: 0;
+    }
+    .steps {
+        margin-bottom: 0;
+    }
     .row {
         flex-direction: column;
-        align-items: stretch;
+        gap: 80px;
+    }
+    .col {
+        min-width: calc(100%);
+    }
+    html {
+        font-size: 21px;
     }
     
-} */
+}
