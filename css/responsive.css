@@ -1,3 +1,8 @@
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 100%;
+    }
+}
 @media screen and (max-width: 768px)  {
     .container {
         max-width: 100%;
@@ -8,13 +13,10 @@
         font-size: 16px;
     }
     .steps h2  {
-        margin-bottom: 45px;
+        margin-bottom: 5%;
     }
     .steps .col img {
-        margin-bottom: 25px;
-    }
-    .site-header {
-        max-width: 100%;
+        margin-bottom: 10%;
     }
 }
 @media screen and (max-width: 480px) {
